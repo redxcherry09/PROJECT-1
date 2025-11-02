@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+    .r1{
+          display: flex;
+     }
+    .k1{
+          margin-top:100px;
+          margin-bottom: 100px;
+          background-image:url(/tokyo2.webp);
+          background-position: center;
+          background-size: cover;
+          height: 150px;
+          width: 150px;
+          animation: r1 2s infinite;
+        }
+     @keyframes r1 {
+        from{
+            border: 5px sololid black ;
+            transform: scale(1.5);
+            background-color: yellow;
+            transition: 15s;
+            box-shadow: 3px 3px 10px grey;
+          }
+        to{
+            border-radius:50px;
+            border: 2px dotted  ;
+            transform: scale(1.5) rotate(360deg);
+            background-color: yellow;
+            transition: 8s;
+            background-image: url(/tokyo12.webp);
+            border-radius: 50%;
+            box-shadow: 4px 4px 10px darkred;
+          }
+        } 
+.k1:hover{
+  background-color: blue;
+}
+.r2{
+          display: flex;
+     }
+    .k2{
+          margin-top:100px;
+          margin-bottom: 100px;
+          background-image:url(/rio3.webp);
+          background-position: center;
+          background-size: cover;
+          height: 150px;
+          width: 150px;
+          animation: r2 2s infinite;
+        }
+    @keyframes r2 {
+        from{
+            border: 5px sololid black ;
+            transform: scale(1.5);
+            background-color: yellow;
+            transition: 15s;
+            box-shadow: 3px 3px 10px grey;
+          }
+        to{
+            border-radius:50px;
+            border: 2px dotted  ;
+            transform: scale(1.5) rotate(360deg);
+            background-color: yellow;
+            transition: 8s;
+            background-image: url(/rio2.webp);
+            border-radius: 50%;
+            box-shadow: 4px 4px 10px darkred;
+          }
+        }
+.k2:hover{
+  background-color: blue;
+}
+.r3{
+          display: flex;
+}
+    .k3{
+          margin-top:100px;
+          margin-bottom: 100px;
+          background-image:url(/raquelr.webp);
+          background-position: center;
+          background-size: cover;
+          height: 150px;
+          width: 150px;
+          animation: r3 2s infinite;
+        }
+    @keyframes r3{
+        from{
+            border: 5px sololid black ;
+            transform: scale(1.5);
+            background-color: yellow;
+            transition: 15s;
+            box-shadow: 3px 3px 10px grey;
+          }
+        to{
+            border-radius:50px;
+            border: 2px dotted  ;
+            transform: scale(1.5) rotate(360deg);
+            background-color: yellow;
+            transition: 8s;
+            background-image: url(/raquel1.jpg);
+            border-radius: 50%;
+            box-shadow: 4px 4px 10px darkred;
+          }
+        }
+.k3:hover{
+  background-color: blue;
+}
+.r4{
+          display: flex;
+     }
+    .k4{
+          margin-top:100px;
+          margin-bottom: 100px;
+          background-image:url(/professor1.webp);
+          background-position: center;
+          background-size: cover;
+          height: 150px;
+          width: 150px;
+          animation: r4 2s infinite;
+        }
+    @keyframes r4 {
+        from{
+            border: 5px sololid black ;
+            transform: scale(1.5);
+            background-color: yellow;
+            transition: 15s;
+            box-shadow: 3px 3px 10px grey;
+          }
+        to{
+            border-radius:50px;
+            border: 2px dotted  ;
+            transform: scale(1.5) rotate(360deg);
+            background-color: yellow;
+            transition: 8s;
+            background-image: url(/profe.webp);
+            border-radius: 50%;
+            box-shadow: 4px 4px 10px darkred;
+          }
+        }
+.k4:hover{
+  background-color: blue;
+}
+</style>
+        
+<body>
+<div class="r1">
+    <div class="k1"></div>
+    <div class="k1"></div>
+    <div class="k1"></div>
+    <div class="k1"></div>
+    <div class="k1"></div>
+  </div>
+  <hr color="red">
+  <hr color="black">
+  <div class="r2">
+    <div class="k2"></div>
+    <div class="k2"></div>
+    <div class="k2"></div>
+    <div class="k2"></div>
+    <div class="k2"></div>
+  </div>
+  <hr color="red">
+  <hr color="black">
+  <div class="r3">
+    <div class="k3"></div>
+    <div class="k3"></div>
+    <div class="k3"></div>
+    <div class="k3"></div>
+    <div class="k3"></div>
+  </div>
+  <hr color="red">
+  <hr color="black">
+  <div class="r4">
+    <div class="k4"></div>
+    <div class="k4"></div>
+    <div class="k4"></div>
+    <div class="k4"></div>
+    <div class="k4"></div>
+  </div> 
+<hr color="red">
+<hr color="black">
+</body>
+</html>
